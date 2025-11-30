@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <title>Recarga FF Max - Página Temporária</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recarga FF Max - Página Temporária</title>
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,9 +13,11 @@
             background-color: #f0f0f0;
             color: #333;
         }
+
         h1 {
-            color: #ff4500; /* Cor laranja do Free Fire */
+            color: #ff4500; /* Cor Laranja do Free Fire */
         }
+
         .container {
             background-color: white;
             padding: 30px;
@@ -23,13 +26,42 @@
             margin: auto;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
+        
+        /* CÓDIGO CSS DO BOTÃO WHATSAPP CORRIGIDO E ESTILIZADO */
+        .seus-estilos-de-botao {
+            display: inline-block;
+            background-color: #ff4500; /* Laranja forte */
+            color: white; 
+            text-decoration: none;
+            border-radius: 8px; 
+            padding: 15px 30px; 
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 30px; /* Adiciona um bom espaço entre o texto e o botão */
+        }
+
+        .seus-estilos-de-botao:hover {
+            background-color: #cc3700; /* Laranja mais escuro ao passar o mouse */
+        }
     </style>
-</head>
+    </head>
 <body>
+
     <div class="container">
         <h1>RECARGA FF MAX</h1>
-        <p>✅ Este site está no ar!</p>
-        <p>A página está funcionando. Agora, você pode editar este arquivo ou adicionar o código completo do seu projeto.</p>
+        <p>Este site está no ar! Agora, você pode editar este arquivo ou adicionar o código completo do seu projeto.</p>
+        
+        <a 
+            href="https://wa.me/5566981258535?text=Ola!%20Gostaria%20de%20comprar%20diamantes.%0A%0AUID%2FID%20do%20Jogo%3A%0ACPF%3A%0AComprovante%3A%20(Vou%20anexar%20a%20seguir)" 
+            class="seus-estilos-de-botao"
+            target="_blank"
+        >
+            COMPRAR AGORA via whatsapp
+        </a>
     </div>
+
 </body>
 </html>
